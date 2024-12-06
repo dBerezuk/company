@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Веб-студия</title>
+		<link rel="icon" type="image/x-icon" href="/images/page-icon.ico" />
+		<link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<a class="logo" href="#">
+						<img
+							class="logo__img"
+							width="91"
+							height="68"
+							src="images/logo.svg"
+							alt="logo"
+						/>
+					</a>
+					<nav class="menu">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a class="menu__link" href="#home">Главная</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#about">О нас</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#our-services">Наши сервисы</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#service-map">Услуги</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#contact">Связаться с нами</a>
+							</li>
+						</ul>
+					</nav>
+					<button class="header__btn">
+						<span class="header__btn-line"></span>
+						<span class="header__btn-line"></span>
+						<span class="header__btn-line"></span>
+					</button>
+					<a class="login-link header__login-link" href="#">Войти</a>
+				</div>
+			</div>
+		</header>
+		<section class="home" id="home">
+			<div class="container">
+				<div class="home__inner">
+					<div class="home__content">
+						<h1 class="home__title">Предоставляем и разрабатываем сайты для</h1>
+						<p class="home__text">
+							Возможности показать большому количеству людей своё творчество и
+							делится своими мыслями. Увеличение числа стабильных заказов и
+							прибыли. Повышение узнаваемости вашего бренда
+						</p>
+						<a class="link home__link" href="#">
+							Заказать сайт
+							<svg
+								class="link__svg"
+								width="20"
+								height="15"
+								viewBox="0 0 23 15"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M1.74939 6.54529C1.1971 6.54529 0.74939 6.993 0.74939 7.54529C0.74939 8.09757 1.1971 8.54529 1.74939 8.54529V6.54529ZM22.4565 8.25239C22.847 7.86187 22.847 7.22871 22.4565 6.83818L16.0925 0.47422C15.702 0.0836959 15.0688 0.0836959 14.6783 0.47422C14.2878 0.864745 14.2878 1.49791 14.6783 1.88843L20.3352 7.54529L14.6783 13.2021C14.2878 13.5927 14.2878 14.2258 14.6783 14.6164C15.0688 15.0069 15.702 15.0069 16.0925 14.6164L22.4565 8.25239ZM1.74939 8.54529H21.7494V6.54529H1.74939V8.54529Z"
+									fill="#B2BAFF"
+								/>
+							</svg>
+						</a>
+					</div>
+					<div class="home__image">
+						<canvas class="home__canvas"></canvas>
+						<img
+							class="home__img"
+							src="images/business-analytics.png"
+							alt="img"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="about" id="about">
+			<div class="container">
+				<div class="about__box">
+					<div class="about__inner">
+						<div class="about__title-box">
+							<h2 class="title about__title">О нас</h2>
+						</div>
+						<p class="about__text">
+							Наша команда программистов делает разные сайты разного уровня
+							сложности. Абсолютно быстро и качественно.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="our-services" id="our-services">
+			<div class="container">
+				<h2 class="title">Наши web проекты</h2>
+				<div class="our-services__items">
+					<div class="our-services__item our-services__item--appearance-one">
+						<div class="our-services__item-descr">
+							<h3 class="section-title our-services__item-title">
+								Интернет магазин
+							</h3>
+							<p class="services__item-text">
+								Созданный одним программистом. И это доказывает то, что даже
+								один наш программист. Сделает все качественно и быстро.
+							</p>
+							<a class="link our-services__link" href="#">
+								Просмотреть
+								<svg
+									class="link__svg"
+									width="20"
+									height="15"
+									viewBox="0 0 23 15"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M1.74939 6.54529C1.1971 6.54529 0.74939 6.993 0.74939 7.54529C0.74939 8.09757 1.1971 8.54529 1.74939 8.54529V6.54529ZM22.4565 8.25239C22.847 7.86187 22.847 7.22871 22.4565 6.83818L16.0925 0.47422C15.702 0.0836959 15.0688 0.0836959 14.6783 0.47422C14.2878 0.864745 14.2878 1.49791 14.6783 1.88843L20.3352 7.54529L14.6783 13.2021C14.2878 13.5927 14.2878 14.2258 14.6783 14.6164C15.0688 15.0069 15.702 15.0069 16.0925 14.6164L22.4565 8.25239ZM1.74939 8.54529H21.7494V6.54529H1.74939V8.54529Z"
+										fill="#B2BAFF"
+									/>
+								</svg>
+							</a>
+						</div>
+						<img
+							class="our-services__item-img"
+							src="images/portfolio-update.png"
+							alt="portfolio update img"
+						/>
+					</div>
+					<div class="our-services__item our-services__item--appearance-two">
+						<img
+							class="our-services__item-img"
+							src="images/app-development.png"
+							alt="app development img"
+						/>
+						<div class="our-services__item-descr">
+							<h3 class="section-title our-services__item-title">
+								Полноценная соцсеть
+							</h3>
+							<p class="services__item-text">
+								Была нашем самый первым проектом на новых языках
+								программирования, и на этом мы не остановимся.
+							</p>
+							<a class="link our-services__link" href="#">
+								Просмотреть
+								<svg
+									class="link__svg"
+									width="20"
+									height="15"
+									viewBox="0 0 23 15"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M1.74939 6.54529C1.1971 6.54529 0.74939 6.993 0.74939 7.54529C0.74939 8.09757 1.1971 8.54529 1.74939 8.54529V6.54529ZM22.4565 8.25239C22.847 7.86187 22.847 7.22871 22.4565 6.83818L16.0925 0.47422C15.702 0.0836959 15.0688 0.0836959 14.6783 0.47422C14.2878 0.864745 14.2878 1.49791 14.6783 1.88843L20.3352 7.54529L14.6783 13.2021C14.2878 13.5927 14.2878 14.2258 14.6783 14.6164C15.0688 15.0069 15.702 15.0069 16.0925 14.6164L22.4565 8.25239ZM1.74939 8.54529H21.7494V6.54529H1.74939V8.54529Z"
+										fill="#B2BAFF"
+									/>
+								</svg>
+							</a>
+						</div>
+					</div>
+					<div class="our-services__item our-services__item--appearance-three">
+						<div class="our-services__item-descr">
+							<h3 class="section-title our-services__item-title">
+								Сайт который уже здесь
+							</h3>
+							<p class="services__item-text">
+								Чистый, как слеза младенца. Лендинг, на которым Вы сейчас
+								находитесь? Это тоже наша разработка. Верстальщик знает своё
+								дело.
+							</p>
+							<a class="link our-services__link" href="#">
+								Я на месте
+								<svg
+									class="link__svg"
+									width="20"
+									height="15"
+									viewBox="0 0 23 15"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M1.74939 6.54529C1.1971 6.54529 0.74939 6.993 0.74939 7.54529C0.74939 8.09757 1.1971 8.54529 1.74939 8.54529V6.54529ZM22.4565 8.25239C22.847 7.86187 22.847 7.22871 22.4565 6.83818L16.0925 0.47422C15.702 0.0836959 15.0688 0.0836959 14.6783 0.47422C14.2878 0.864745 14.2878 1.49791 14.6783 1.88843L20.3352 7.54529L14.6783 13.2021C14.2878 13.5927 14.2878 14.2258 14.6783 14.6164C15.0688 15.0069 15.702 15.0069 16.0925 14.6164L22.4565 8.25239ZM1.74939 8.54529H21.7494V6.54529H1.74939V8.54529Z"
+										fill="#B2BAFF"
+									/>
+								</svg>
+							</a>
+						</div>
+						<img
+							class="our-services__item-img"
+							src="images/portfolio-update.png"
+							alt="portfolio update img"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="service-map" id="service-map">
+			<div class="container">
+				<h2 class="title">Услуги</h2>
+				<div class="service-map__items">
+					<div class="service-map__item">
+						<h3 class="section-title service-map-title">Дизайн</h3>
+						<ul class="service-map__list">
+							<li class="service-map__list-item">
+								Наши лучшие дизайнеры сделают снова лучший дизайн. Во всем
+								межгалактическом Интернете.
+							</li>
+							<li class="service-map__list-item">
+								Цена за дизайн зависит от объема задач, которые вы хотите иметь
+								на своем сайте.
+							</li>
+						</ul>
+					</div>
+					<div class="service-map__item">
+						<h3 class="section-title service-map-title">Верстка</h3>
+						<ul class="service-map__list">
+							<li class="service-map__list-item">
+								Сверстаем и покажем, как надо.
+							</li>
+							<li class="service-map__list-item">
+								Цена за верстку зависит от объема задач, которые есть в вашем
+								макете сайта.
+							</li>
+						</ul>
+					</div>
+					<div class="service-map__item">
+						<h3 class="section-title service-map-title">Серверная часть</h3>
+						<ul class="service-map__list">
+							<li class="service-map__list-item">
+								Разрабатываем даже по ту сторону экрана
+							</li>
+							<li class="service-map__list-item">
+								Цена за серверную часть зависит от объема задач, например, какие
+								функции должен уметь делать ваш сайт.
+							</li>
+						</ul>
+					</div>
+				</div>
+				<p class="service-map__wrapper">
+					<a class="service-map__link" href="#">Просмотреть все услуги</a>
+				</p>
+			</div>
+		</section>
+		<section class="contact" id="contact">
+			<div class="container">
+				<div class="contact__box">
+					<h2 class="title">Связаться с нами</h2>
+					<form class="contact__form" method="" action="">
+						<input
+							class="contact__form-input"
+							name="name"
+							placeholder="Ваше имя"
+						/>
+						<input
+							class="contact__form-input"
+							name="name"
+							placeholder="Ваш email адрес"
+						/>
+						<input
+							class="contact__form-input"
+							name="tel"
+							placeholder="Ваш номер телефона"
+						/>
+						<textarea
+							class="contact__form-textarea"
+							name="text"
+							placeholder="Есть что сказать?"
+						></textarea>
+						<button type="submit" class="contact__form-btn">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<p class="footer__side-name">Веб-студия</p>
+					<p class="footer__info-text">Веб-студия, 2022 © Все права защищены</p>
+				</div>
+			</div>
+		</footer>
+
+		<!--модальное окно - меню-->
+		<div class="model-window">
+			<div class="model-window__content">
+				<div class="model-window__top-bg">
+					<div class="container">
+						<div class="model-window__content-top">
+							<a class="logo" href="#">
+								<img
+									class="logo__img"
+									width="91"
+									height="68"
+									src="images/logo.svg"
+									alt="logo"
+								/>
+							</a>
+							<button class="model-window__content-btn">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									fill="#0029FF"
+									width="25"
+									height="25"
+									viewBox="0 0 24 24"
+								>
+									<path
+										d="M4.293,18.293,10.586,12,4.293,5.707A1,1,0,0,1,5.707,4.293L12,10.586l6.293-6.293a1,1,0,1,1,1.414,1.414L13.414,12l6.293,6.293a1,1,0,1,1-1.414,1.414L12,13.414,5.707,19.707a1,1,0,0,1-1.414-1.414Z"
+									/>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="model-window__inner">
+						<nav class="model-window__content-menu">
+							<ul class="model-window__content-list">
+								<li class="model-window__content-item">
+									<a class="model-window__content-link" href="#home">Главная</a>
+								</li>
+								<li class="model-window__content-item">
+									<a class="model-window__content-link" href="#about">О нас</a>
+								</li>
+								<li class="model-window__content-item">
+									<a class="model-window__content-link" href="#our-services"
+										>Наши сервисы</a
+									>
+								</li>
+								<li class="model-window__content-item">
+									<a class="model-window__content-link" href="#service-map"
+										>Услуги</a
+									>
+								</li>
+								<li class="model-window__content-item">
+									<a class="model-window__content-link" href="#contact"
+										>Связаться с нами</a
+									>
+								</li>
+							</ul>
+						</nav>
+						<a class="login-link model-window__login-link" href="#">Войти</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
